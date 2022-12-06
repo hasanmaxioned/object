@@ -151,19 +151,26 @@ span#error-para {
 }
 
 /* movie list css  */
+.movie-title {
+  color: #dd8318;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
+
 ul.movie-list {
   display: flex;
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 ul.movie-list li.list-item {
-  flex-basis: 48%;
+  flex-basis: 50%;
 }
 
 ul.movie-detail {
   padding: 16px 30px;
-  margin: 16px 0;
+  margin: 16px 0 0 16px;
   display: flex;
   flex-direction: column;
   background: #dd8318;
