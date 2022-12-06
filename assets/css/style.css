@@ -116,8 +116,9 @@ h1.heading {
 }
 
 .input-field input {
-  padding: 10px 8px;
   width: 100%;
+  padding: 10px 8px;
+  margin-bottom: 16px;
 }
 
 .submit-field {
@@ -141,6 +142,12 @@ form.form {
 
 .input-field {
   width: 84%;
+}
+
+span#error-para {
+  color: #ff0505;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 /*=================================
   main styling ends here
