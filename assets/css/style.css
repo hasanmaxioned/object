@@ -149,6 +149,32 @@ span#error-para {
   font-size: 16px;
   text-transform: uppercase;
 }
+
+/* movie list css  */
+ul.movie-list {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+}
+
+ul.movie-list li.list-item {
+  flex-basis: 48%;
+}
+
+ul.movie-detail {
+  padding: 16px 30px;
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  background: #dd8318;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+}
+
+ul.movie-detail li.title {
+  margin-bottom: 14px;
+}
 /*=================================
   main styling ends here
 =================================*/
